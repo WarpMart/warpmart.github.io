@@ -11,6 +11,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .left-column {
