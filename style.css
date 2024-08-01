@@ -35,24 +35,18 @@ body {
     font-weight: 700;
     font-style: normal;
     line-height: 1.5;
-  }
-  
-  input[type=text] {
-    font-size: 16px;
-    padding: 5px;
-  }
-  
-  button {
-    font-size: 16px;
-    padding: 5px 10px;
+    text-align: center;
   }
   
   .link-list {
     font-size: 16px;
+    text-align: center;
   }
   
-  .link-list li {
-    margin-bottom: 40px;
+  .project-list li {
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline;
   }
   
   .footer {
@@ -64,26 +58,18 @@ body {
   .socials-list li {
     display: inline;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .space-whales {
-    position: relative;
-    width: 75px;
-    height: 50px;
+    width: 100%;
+    overflow-x: hidden;
   }
   
   .space-whales .space-whales-gif {
-    position: absolute;
-    left: -20%;
-    width: 75px;
-    height: 50px;
-    margin-left: -100px;
-    transform: translateX(-50%) translateY(-50%);
-    background-image: url("assets/space-whales.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    animation: ani-float-right 80s linear infinite;
-    animation-delay: 0s;
+    display: block;
+    width: 200px; /* Adjust the width as needed */
+    animation: float 10s linear infinite;
   }
   
   @keyframes ani-float-right {
