@@ -71,19 +71,22 @@ body {
   .space-whales {
     width: 100%;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   .space-whales .space-whales-gif {
     display: block;
     width: 50px; /* Adjust the width as needed */
-    animation: float 10s linear infinite;
+    animation: float 20s linear infinite;
   }
   
   @keyframes float {
     0% {
-      transform: translateX(-200%);
+      transform: translateX(-100vw);
     }
     100% {
-      transform: translateX(200%);
+      transform: translateX(100vw);
     }
   }
