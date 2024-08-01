@@ -61,6 +61,11 @@ body {
     float: center;
   }
   
+  .space-whales {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .space-whales .space-whales-gif {
     display: block;
     width: 50px; /* Adjust the width as needed */
