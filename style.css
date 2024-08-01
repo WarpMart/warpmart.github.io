@@ -1,0 +1,67 @@
+body {
+    background-color: #C0C0C0;
+  }
+  
+  h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 48px;
+    color: #000080;
+  }
+  
+  h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    color: #154b0e;
+  }
+  
+  h3 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+    color: #d10000;
+  }
+  
+  p {
+    font-size: 18px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+  }
+  
+  input[type=text] {
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
+  .link-list {
+    font-size: 16px;
+  }
+  
+  .link-list li {
+    margin-bottom: 40px;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  
+  .socials-list li {
+    display: inline;
+    margin-bottom: 10px;
+  }
