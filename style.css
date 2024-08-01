@@ -65,3 +65,32 @@ body {
     display: inline;
     margin-bottom: 10px;
   }
+
+
+
+
+
+  .space-whales > .space-whales.gif {
+    width: 75px;
+    height: 50px;
+    top: 658px;
+    left: -20%;
+    margin-left: -100px;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: -55s;
+    animation: ani-float-right 80s linear infinite;
+    animation-delay: 0s;
+  }
+  
+  @keyframes ani-float-right {
+    0% {
+      left: -20%;
+    }
+    100% {
+      left: 120%;
+    }
+  }
