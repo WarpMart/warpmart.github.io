@@ -60,11 +60,6 @@ body {
     margin-bottom: 10px;
     text-align: center;
   }
-
-  .space-whales {
-    width: 100%;
-    overflow-x: hidden;
-  }
   
   .space-whales .space-whales-gif {
     display: block;
@@ -72,11 +67,11 @@ body {
     animation: float 10s linear infinite;
   }
   
-  @keyframes ani-float-right {
+  @keyframes float {
     0% {
-      left: -20%;
+      transform: translateX(-200%);
     }
     100% {
-      left: 120%;
+      transform: translateX(200%);
     }
   }
