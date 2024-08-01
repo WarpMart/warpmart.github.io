@@ -38,29 +38,36 @@ body {
     text-align: center;
   }
   
-  .link-list {
-    font-size: 16px;
-    text-align: center;
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   
   .project-list li {
-    margin-bottom: 10px;
-    float: center;
-    display: inline;
+    margin: 0 10px;
   }
   
+  .socials-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socials-list li {
+    margin: 0 10px;
+  }
+
   .footer {
     text-align: center;
     font-size: 14px;
     margin-top: 40px;
   }
-  
-  .socials-list li {
-    display: inline;
-    margin-bottom: 10px;
-    float: center;
-  }
-  
+
   .space-whales {
     width: 100%;
     overflow-x: hidden;
